@@ -1,0 +1,17 @@
+.btn-primary {
+    background: linear-gradient(45deg, #fa7370, #ff9a72);
+    border: none;
+}
+.btn-primary:hover {
+    background: linear-gradient(45deg, #ff9a72, #fa7370);
+}
+.nav-link {
+    font-weight: 500;
+}
+.navbar-brand span {
+    font-size: 1.25rem;
+}
+.carousel-inner img {
+    max-height: 400px;
+    object-fit: cover; 
+}
