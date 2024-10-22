@@ -100,3 +100,9 @@
     background-color: black;
     color: white;
 }
+.tes-btn{
+    background-color: #d1b5ff;
+}
+.tes-btn:hover {
+    background-color: #e4d4ff;
+}
