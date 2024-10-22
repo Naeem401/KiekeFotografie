@@ -106,3 +106,22 @@
 .tes-btn:hover {
     background-color: #e4d4ff;
 }
+
+
+
+.insta-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+}
+.insta-grid img {
+    width: 100%; 
+    height: auto; 
+}
+
+.insta-grid .col-span-2 {
+    grid-column: span 2;
+}
+.insta-grid .row-span-2 {
+    grid-row: span 2;
+}
