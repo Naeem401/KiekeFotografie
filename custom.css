@@ -46,3 +46,18 @@
             line-height: 58px;
             color: #111111;
 }
+
+.custom-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.row-span-2 {
+    grid-row: span 2;
+}
+.col-span-2 {
+    grid-column: span 2;
+}
+
+
+
